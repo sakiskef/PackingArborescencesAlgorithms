@@ -1474,8 +1474,8 @@ int main(int argc, char *argv[]){
 	Define_upper_bound_of_K();  //assign K to the min degree 
 
 	init();
-	//n_arbors = construct_trees();			//main routine
-	n_arbors = 8;			//main routine
+	n_arbors = construct_trees();			//main routine
+	
 	cout <<"arbors are "<<n_arbors<<endl;
 	
 	high_resolution_clock::time_point t4 = high_resolution_clock::now();
